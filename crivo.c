@@ -24,7 +24,7 @@ int main (){
 
     for (i = 1; i <= N; i++) 
        if(a[i] == 1){
-           printf("%d\n", i);
+           printf("Teste: %d\n", i);
        }
 
     return 0;
