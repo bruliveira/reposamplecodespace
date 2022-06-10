@@ -1,18 +1,16 @@
 #include <stdlib.h>
 #include <stdio.h>
 #include <math.h>
+#define N 1000 
 
 // Este programa imprime uma lista de todos os números primos 
 // menores que N. 
 // O método usado é o do crivo de Eratóstenes.
 
 int main (){
-    int i, j, N; 
+    int i, j; 
     int *a;
     
-    printf("\nValor de N: ");
-    scanf("%d", &N);
-
     a = malloc(N * sizeof (int));
     
     for (i = 2; i < N; i++) 
